@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SLBaiduPod' => ['Pod/resources/mapapi.bundle']
+  s.resource_bundle = {
+    'mapapi' => 'Pod/resources/*'
   }
 
   s.header_mappings_dir = 'Pod/Classes/inc'
