@@ -24,7 +24,7 @@
   },
   "header_mappings_dir": "Pod/Classes/inc",
   "vendored_libraries": [
-    "Pod/library/libbaidumapapi.a"
+    "Pod/Frameworks/libbaidumapapi.a"
   ],
   "frameworks": [
     "CoreLocation",
