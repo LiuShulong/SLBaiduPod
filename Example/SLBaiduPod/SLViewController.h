@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 LiuShulong. All rights reserved.
 //
 
-@import UIKit;
 
 @interface SLViewController : UIViewController
 

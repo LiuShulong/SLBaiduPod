@@ -1,40 +1,28 @@
-#
-# Be sure to run `pod lib lint SLBaiduPod.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SLBaiduPod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SLBaiduPod."
+  s.summary          = "A private pod test."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        A private pod test.My..
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SLBaiduPod"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/LiuShulong/SLBaiduPod"
   s.license          = 'MIT'
   s.author           = { "LiuShulong" => "bigfish_liu@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SLBaiduPod.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/LiuShulong/SLBaiduPod.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'SLBaiduPod' => ['Pod/Assets/*.png']
+    'SLBaiduPod' => ['Pod/resources/mapapi.bundle']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.header_mappings_dir = 'Pod/Classes/inc'
+  s.vendored_libraries = ['Pod/library/libbaidumapapi.a']
+  s.frameworks = 'CoreLocation','QuartzCore','OpenGLES','SystemConfiguration','CoreGraphics','Security'
+  s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
+
 end

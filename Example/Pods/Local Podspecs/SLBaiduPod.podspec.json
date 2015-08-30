@@ -1,0 +1,40 @@
+{
+  "name": "SLBaiduPod",
+  "version": "0.1.0",
+  "summary": "A private pod test.",
+  "description": "                        A private pod test.My..\n",
+  "homepage": "https://github.com/LiuShulong/SLBaiduPod",
+  "license": "MIT",
+  "authors": {
+    "LiuShulong": "bigfish_liu@126.com"
+  },
+  "source": {
+    "git": "https://github.com/LiuShulong/SLBaiduPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SLBaiduPod": [
+      "Pod/resources/mapapi.bundle"
+    ]
+  },
+  "header_mappings_dir": "Pod/Classes/inc",
+  "vendored_libraries": [
+    "Pod/library/libbaidumapapi.a"
+  ],
+  "frameworks": [
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security"
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}

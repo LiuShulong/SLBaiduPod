@@ -1,0 +1,2 @@
+PODS_SLBAIDUPOD_TESTS_SLBAIDUPOD_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/library"
+PODS_SLBAIDUPOD_TESTS_SLBAIDUPOD_OTHER_LDFLAGS = -ObjC -l"baidumapapi" -framework "CoreGraphics" -framework "CoreLocation" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
