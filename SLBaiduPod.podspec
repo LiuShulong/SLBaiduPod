@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SLBaiduPod"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A private pod test."
 
   s.description      = <<-DESC

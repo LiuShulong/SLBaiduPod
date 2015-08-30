@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/inc/BMKOpenPoiOption.h
