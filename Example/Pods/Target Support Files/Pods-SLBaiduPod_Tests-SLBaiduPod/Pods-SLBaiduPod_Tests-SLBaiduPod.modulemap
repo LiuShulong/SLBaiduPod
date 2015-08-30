@@ -1,0 +1,6 @@
+framework module SLBaiduPod {
+  umbrella header "Pods-SLBaiduPod_Tests-SLBaiduPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
