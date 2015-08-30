@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SLBaiduPod"
-  s.version          = "0.1.1"
+  s.version          = "0.1.0"
   s.summary          = "A private pod test."
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'SLBaiduPod' => ['Pod/resources/mapapi.bundle']
+    'mapapi' => ['Pod/resources/mapapi.bundle']
   }
 
   s.header_mappings_dir = 'Pod/Classes/inc'

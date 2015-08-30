@@ -1,6 +1,6 @@
 {
   "name": "SLBaiduPod",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "summary": "A private pod test.",
   "description": "                        A private pod test.My..\n",
   "homepage": "https://github.com/LiuShulong/SLBaiduPod",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/LiuShulong/SLBaiduPod.git",
-    "tag": "0.1.1"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "7.0"
