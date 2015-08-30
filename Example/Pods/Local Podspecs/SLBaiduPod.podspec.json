@@ -18,9 +18,7 @@
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
-    "SLBaiduPod": [
-      "Pod/resources/mapapi.bundle"
-    ]
+    "mapapi": "Pod/resources/*"
   },
   "header_mappings_dir": "Pod/Classes/inc",
   "vendored_libraries": [
