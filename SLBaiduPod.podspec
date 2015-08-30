@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   }
 
   s.header_mappings_dir = 'Pod/Classes/inc'
-  s.vendored_libraries = ['Pod/library/libbaidumapapi.a']
+  s.vendored_libraries = [
+    'Pod/Frameworks/libbaidumapapi.a'
+  ]
   s.frameworks = 'CoreLocation','QuartzCore','OpenGLES','SystemConfiguration','CoreGraphics','Security'
   s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
 
